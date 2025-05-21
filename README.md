@@ -2,8 +2,6 @@
 
 This is a Spring Boot REST API application designed to manage customers in a shopping mall system. It supports full **CRUD operations** and integrates with a **PostgreSQL** database. The application follows a layered architecture with separation of concerns: controller, service, repository, and entity.
 
----
-
 ## ✅ Features
 
 - Add a new customer
@@ -26,4 +24,9 @@ This is a Spring Boot REST API application designed to manage customers in a sho
 ---
 
 ## 🗃️ Folder Structure
-
+com.tns
+├── customer # Entity class
+├── controller # REST Controller
+├── repository # JPA Repository
+├── service # Service layer
+└── ShoppingMallApplication.java
